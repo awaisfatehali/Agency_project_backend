@@ -4,7 +4,7 @@ const app = express();
 const cookieParser = require('cookie-parser');
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://digital-agency-amber-xi.vercel.app',
     credentials: true,
 }));
 app.use(express.json());
